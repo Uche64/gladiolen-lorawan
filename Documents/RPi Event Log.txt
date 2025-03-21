@@ -1,0 +1,36 @@
+2025-03-21 09:01:01	Looking up host "192.168.0.114" for SSH connection
+2025-03-21 09:01:01	Connecting to 192.168.0.114 port 22
+2025-03-21 09:01:01	We claim version: SSH-2.0-PuTTY_Release_0.82
+2025-03-21 09:01:01	Connected to 192.168.0.114 (from 192.168.0.190:52283)
+2025-03-21 09:01:01	Remote version: SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u5
+2025-03-21 09:01:01	Using SSH protocol version 2
+2025-03-21 09:01:01	No GSSAPI security context available
+2025-03-21 09:01:01	Enabling strict key exchange semantics
+2025-03-21 09:01:01	Doing NTRU Prime / Curve25519 hybrid key exchange, using hash SHA-512 (unaccelerated)
+2025-03-21 09:01:02	Server also has ecdsa-sha2-nistp256/rsa-sha2-512/rsa-sha2-256 host keys, but we don't know any of them
+2025-03-21 09:01:02	Host key fingerprint is:
+2025-03-21 09:01:02	ssh-ed25519 255 SHA256:4mI0OlJU9YWOfbTdtkidk924oDZWtJSXcfafwNFeNII
+2025-03-21 09:01:02	Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+2025-03-21 09:01:02	Initialised HMAC-SHA-256 (SHA-NI accelerated) outbound MAC algorithm
+2025-03-21 09:01:02	Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+2025-03-21 09:01:02	Initialised HMAC-SHA-256 (SHA-NI accelerated) inbound MAC algorithm
+2025-03-21 09:01:08	Sent password
+2025-03-21 09:01:08	Access granted
+2025-03-21 09:01:08	Opening main session channel
+2025-03-21 09:01:08	Opened main channel
+2025-03-21 09:01:08	Allocated pty
+2025-03-21 09:01:08	Started a shell/command
+2025-03-21 10:01:02	Initiating key re-exchange (timeout)
+2025-03-21 10:01:02	No GSSAPI security context available
+2025-03-21 10:01:02	Doing NTRU Prime / Curve25519 hybrid key exchange, using hash SHA-512 (unaccelerated)
+2025-03-21 10:01:02	Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+2025-03-21 10:01:02	Initialised HMAC-SHA-256 (SHA-NI accelerated) outbound MAC algorithm
+2025-03-21 10:01:02	Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+2025-03-21 10:01:02	Initialised HMAC-SHA-256 (SHA-NI accelerated) inbound MAC algorithm
+2025-03-21 11:01:02	Initiating key re-exchange (timeout)
+2025-03-21 11:01:02	No GSSAPI security context available
+2025-03-21 11:01:02	Doing NTRU Prime / Curve25519 hybrid key exchange, using hash SHA-512 (unaccelerated)
+2025-03-21 11:01:02	Initialised AES-256 SDCTR (AES-NI accelerated) outbound encryption
+2025-03-21 11:01:02	Initialised HMAC-SHA-256 (SHA-NI accelerated) outbound MAC algorithm
+2025-03-21 11:01:02	Initialised AES-256 SDCTR (AES-NI accelerated) inbound encryption
+2025-03-21 11:01:02	Initialised HMAC-SHA-256 (SHA-NI accelerated) inbound MAC algorithm
