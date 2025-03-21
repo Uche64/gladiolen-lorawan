@@ -34,9 +34,9 @@ This work was completed as part of an **Elektronica internship at Thomas More Un
 ---
 
 ## **Repository Contents**  
-`docs/` - Full project documentation  
-`code/` - Python scripts for TTN & ChirpStack integration  
-`images/` - Schematics, screenshots, and result visualizations  
+`Documents/` - Full project documentation  
+`Code/` - Python scripts for TTN & ChirpStack integration  
+`Images/` - Schematics, screenshots, and result visualizations  
 
 ---
 
