@@ -1,0 +1,256 @@
+
+Windows@G-NB110903 MINGW64 ~
+$ scp C:\Users\Windows\Downloads\BME280_TTN.py admin@192.168.0.114:/home/pi/
+scp: stat local "C:UsersWindowsDownloadsBME280_TTN.py": No such file or directory
+
+Windows@G-NB110903 MINGW64 ~
+$ ^C
+
+Windows@G-NB110903 MINGW64 ~
+$ /sc/Users/Windows/Downloads/BME280_TTN.py
+bash: /sc/Users/Windows/Downloads/BME280_TTN.py: No such file or directory
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows/Downloads/BME280_TTN.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_TTN.py                                 100% 2822    18.5KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$ ^C
+
+Windows@G-NB110903 MINGW64 ~
+$ ^C
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows/Downloads/bme_test.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+bme_test.py                                   100%  422    44.0KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$ nano inspect_bme280.py
+
+Windows@G-NB110903 MINGW64 ~
+$ python3 inspect_bme280.py
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps> Advanced app settings > App execution aliases.
+
+Windows@G-NB110903 MINGW64 ~
+$ cd ~
+
+Windows@G-NB110903 MINGW64 ~
+$ git clone https://github.com/adafruit/Adafruit_CircuitPython_BME280.git
+Cloning into 'Adafruit_CircuitPython_BME280'...
+remote: Enumerating objects: 734, done.
+remote: Counting objects: 100% (192/192), done.
+remote: Compressing objects: 100% (114/114), done.
+remote: Total 734 (delta 93), reused 147 (delta 78), pack-reused 542 (from 1)
+Receiving objects: 100% (734/734), 186.98 KiB | 4.67 MiB/s, done.
+Resolving deltas: 100% (391/391), done.
+
+Windows@G-NB110903 MINGW64 ~
+$ cp ~/Adafruit_CircuitPython_BME280/adafruit_bme280/adafruit_bme280.py /home/admin/
+cp: cannot stat '/c/Users/Windows/Adafruit_CircuitPython_BME280/adafruit_bme280/adafruit_bme280.py': No such file or directory
+
+Windows@G-NB110903 MINGW64 ~
+$ ^C
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows\Adafruit_CircuitPython_BME280/adafruit_bme280/basic.py admin@192.168.0.114:/home/admin/
+scp: stat local "/c/Users/WindowsAdafruit_CircuitPython_BME280/adafruit_bme280/basic.py": No such file or directory
+
+Windows@G-NB110903 MINGW64 ~
+$  scp /c/Users/Windows\Adafruit_CircuitPython_BME280/adafruit_bme280/basic.py admin@192.168.0.114:/home/admin/
+scp: stat local "/c/Users/WindowsAdafruit_CircuitPython_BME280/adafruit_bme280/basic.py": No such file or directory
+
+Windows@G-NB110903 MINGW64 ~
+$  scp /c/Users/Windows/Adafruit_CircuitPython_BME280/adafruit_bme280/basic.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+basic.py                                                     100%   15KB   1.0MB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$ ^C
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows/Downloads/BME280_TTN.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_TTN.py                                                100% 2994   339.1KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$  scp /c/Users/Windows/Downloads/BME280_TTN.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_TTN.py                                                100% 3038   335.7KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows/Downloads/BME280_TTN.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_TTN.py                                                100% 3076   308.3KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows/Downloads/BME280_TTN.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_TTN.py                                                100% 3076   251.1KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$  scp /c/Users/Windows/Downloads/BME280_TTN.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_TTN.py                                                100% 3249   296.1KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$  scp /c/Users/Windows/Downloads/BME280_TTN.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_TTN.py                                                100% 3166   310.8KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows/Downloads/BME280_TTN.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_TTN.py                                                100% 3165   266.2KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$ pip install pyLoRa
+Collecting pyLoRa
+  Downloading pyLoRa-0.3.1-py3-none-any.whl.metadata (17 kB)
+Downloading pyLoRa-0.3.1-py3-none-any.whl (40 kB)
+Installing collected packages: pyLoRa
+Successfully installed pyLoRa-0.3.1
+
+Windows@G-NB110903 MINGW64 ~
+$ pip install adafruit-circuitpython-rfm9x
+Collecting adafruit-circuitpython-rfm9x
+  Downloading adafruit_circuitpython_rfm9x-2.2.18-py3-none-any.whl.metadata (5.4 kB)
+Collecting Adafruit-Blinka>=7.2.3 (from adafruit-circuitpython-rfm9x)
+  Downloading adafruit_blinka-8.55.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting adafruit-circuitpython-busdevice (from adafruit-circuitpython-rfm9x)
+  Downloading adafruit_circuitpython_busdevice-5.2.11-py3-none-any.whl.metadata (4.0 kB)
+Collecting Adafruit-PlatformDetect>=3.70.1 (from Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x)
+  Downloading Adafruit_PlatformDetect-3.77.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting Adafruit-PureIO>=1.1.7 (from Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x)
+  Downloading Adafruit_PureIO-1.1.11-py3-none-any.whl.metadata (3.0 kB)
+Collecting binho-host-adapter>=0.1.6 (from Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x)
+  Downloading binho_host_adapter-0.1.6-py3-none-any.whl.metadata (2.0 kB)
+Collecting pyftdi>=0.40.0 (from Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x)
+  Downloading pyftdi-0.56.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting adafruit-circuitpython-typing (from Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x)
+  Downloading adafruit_circuitpython_typing-1.11.2-py3-none-any.whl.metadata (3.2 kB)
+Requirement already satisfied: pyserial in c:\users\windows\appdata\local\programs\python\python311\lib\site-packages (from binho-host-adapter>=0.1.6->Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x) (3.5)
+Requirement already satisfied: pyusb!=1.2.0,>=1.0.0 in c:\users\windows\appdata\local\programs\python\python311\lib\site-packages (from pyftdi>=0.40.0->Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x) (1.3.1)
+Collecting adafruit-circuitpython-requests (from adafruit-circuitpython-typing->Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x)
+  Downloading adafruit_circuitpython_requests-4.1.10-py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: typing_extensions~=4.0 in c:\users\windows\appdata\local\programs\python\python311\lib\site-packages (from adafruit-circuitpython-typing->Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x) (4.6.0)
+Collecting Adafruit-Circuitpython-ConnectionManager (from adafruit-circuitpython-requests->adafruit-circuitpython-typing->Adafruit-Blinka>=7.2.3->adafruit-circuitpython-rfm9x)
+  Downloading adafruit_circuitpython_connectionmanager-3.1.3-py3-none-any.whl.metadata (4.5 kB)
+Downloading adafruit_circuitpython_rfm9x-2.2.18-py3-none-any.whl (15 kB)
+Downloading adafruit_blinka-8.55.0-py3-none-any.whl (369 kB)
+Downloading adafruit_circuitpython_busdevice-5.2.11-py3-none-any.whl (7.5 kB)
+Downloading Adafruit_PlatformDetect-3.77.0-py3-none-any.whl (25 kB)
+Downloading Adafruit_PureIO-1.1.11-py3-none-any.whl (10 kB)
+Downloading binho_host_adapter-0.1.6-py3-none-any.whl (10 kB)
+Downloading pyftdi-0.56.0-py3-none-any.whl (145 kB)
+Downloading adafruit_circuitpython_typing-1.11.2-py3-none-any.whl (11 kB)
+Downloading adafruit_circuitpython_requests-4.1.10-py3-none-any.whl (10 kB)
+Downloading adafruit_circuitpython_connectionmanager-3.1.3-py3-none-any.whl (7.8 kB)
+Installing collected packages: Adafruit-PlatformDetect, pyftdi, binho-host-adapter, Adafruit-PureIO, Adafruit-Circuitpython-ConnectionManager, Adafruit-Blinka, adafruit-circuitpython-requests, adafruit-circuitpython-typing, adafruit-circuitpython-busdevice, adafruit-circuitpython-rfm9x
+Successfully installed Adafruit-Blinka-8.55.0 Adafruit-Circuitpython-ConnectionManager-3.1.3 Adafruit-PlatformDetect-3.77.0 Adafruit-PureIO-1.1.11 adafruit-circuitpython-busdevice-5.2.11 adafruit-circuitpython-requests-4.1.10 adafruit-circuitpython-rfm9x-2.2.18 adafruit-circuitpython-typing-1.11.2 binho-host-adapter-0.1.6 pyftdi-0.56.0
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows/Downloads/test_chirpstack.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+test_chirpstack.py                                           100%  952   133.2KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$ docker-compose restart chirpstack-gateway-bridge
+no configuration file provided: not found
+
+Windows@G-NB110903 MINGW64 ~
+$ sudo ufw allow 1700/udp
+Sudo is disabled on this machine. To enable it, go to the Developer Settings page in the Settings app
+
+Windows@G-NB110903 MINGW64 ~
+$ ping 192.168.0.190
+
+Pinging 192.168.0.190 with 32 bytes of data:
+Reply from 192.168.0.190: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.190: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.190: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.190: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.190:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+Windows@G-NB110903 MINGW64 ~
+$ ^C
+
+Windows@G-NB110903 MINGW64 ~
+$ cd chirpstack-docker
+
+Windows@G-NB110903 MINGW64 ~/chirpstack-docker (master)
+$ docker-compose restart chirpstack-gateway-bridge
+[+] Restarting 1/1
+ ✔ Container chirpstack-docker-chirpstack-gateway-bridge-1  Started                       1.1s
+
+Windows@G-NB110903 MINGW64 ~/chirpstack-docker (master)
+$ docker-compose logs chirpstack-gateway-bridge
+chirpstack-gateway-bridge-1  | time="2025-03-11T08:54:38.537119817Z" level=info msg="starting ChirpStack Gateway Bridge" docs="https://www.chirpstack.io/gateway-bridge/" version=
+chirpstack-gateway-bridge-1  | time="2025-03-11T08:54:38.537253595Z" level=info msg="backend/semtechudp: starting gateway udp listener" addr="0.0.0.0:1700"
+chirpstack-gateway-bridge-1  | time="2025-03-11T08:54:38.544916002Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-11T08:54:38.544966467Z" level=warning msg="[store]    memorystore wiped" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-12T07:48:37.153511973Z" level=error msg="[client]   Connect comms goroutine - error triggered EOF" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-12T07:48:37.25704797Z" level=error msg="mqtt: connection error" error=EOF
+chirpstack-gateway-bridge-1  | time="2025-03-12T07:48:37.309322661Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-12T18:52:37.910027067Z" level=error msg="[client]   Connect comms goroutine - error triggered EOF" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-12T18:52:38.009622985Z" level=error msg="mqtt: connection error" error=EOF
+chirpstack-gateway-bridge-1  | time="2025-03-12T18:52:38.170011829Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-13T07:55:46.797038556Z" level=error msg="[client]   Connect comms goroutine - error triggered EOF" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-13T07:55:46.79947385Z" level=error msg="mqtt: connection error" error=EOF
+chirpstack-gateway-bridge-1  | time="2025-03-13T07:55:46.813288975Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:34.399665596Z" level=info msg="signal received" signal=terminated
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:34.400906426Z" level=warning msg="shutting down server"
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:35.553385446Z" level=info msg="starting ChirpStack Gateway Bridge" docs="https://www.chirpstack.io/gateway-bridge/" version=
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:35.554789239Z" level=info msg="backend/semtechudp: starting gateway udp listener" addr="0.0.0.0:1700"
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:35.567598429Z" level=warning msg="[store]    memorystore wiped" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:35.567512548Z" level=info msg="integration/mqtt: connected to mqtt broker"
+
+Windows@G-NB110903 MINGW64 ~/chirpstack-docker (master)
+$ docker-compose logs chirpstack-gateway-bridge
+chirpstack-gateway-bridge-1  | time="2025-03-11T08:54:38.537119817Z" level=info msg="starting ChirpStack Gateway Bridge" docs="https://www.chirpstack.io/gateway-bridge/" version=
+chirpstack-gateway-bridge-1  | time="2025-03-11T08:54:38.537253595Z" level=info msg="backend/semtechudp: starting gateway udp listener" addr="0.0.0.0:1700"
+chirpstack-gateway-bridge-1  | time="2025-03-11T08:54:38.544916002Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-11T08:54:38.544966467Z" level=warning msg="[store]    memorystore wiped" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-12T07:48:37.153511973Z" level=error msg="[client]   Connect comms goroutine - error triggered EOF" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-12T07:48:37.25704797Z" level=error msg="mqtt: connection error" error=EOF
+chirpstack-gateway-bridge-1  | time="2025-03-12T07:48:37.309322661Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-12T18:52:37.910027067Z" level=error msg="[client]   Connect comms goroutine - error triggered EOF" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-12T18:52:38.009622985Z" level=error msg="mqtt: connection error" error=EOF
+chirpstack-gateway-bridge-1  | time="2025-03-12T18:52:38.170011829Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-13T07:55:46.797038556Z" level=error msg="[client]   Connect comms goroutine - error triggered EOF" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-13T07:55:46.79947385Z" level=error msg="mqtt: connection error" error=EOF
+chirpstack-gateway-bridge-1  | time="2025-03-13T07:55:46.813288975Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:34.399665596Z" level=info msg="signal received" signal=terminated
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:34.400906426Z" level=warning msg="shutting down server"
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:35.553385446Z" level=info msg="starting ChirpStack Gateway Bridge" docs="https://www.chirpstack.io/gateway-bridge/" version=
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:35.554789239Z" level=info msg="backend/semtechudp: starting gateway udp listener" addr="0.0.0.0:1700"
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:35.567598429Z" level=warning msg="[store]    memorystore wiped" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-13T10:56:35.567512548Z" level=info msg="integration/mqtt: connected to mqtt broker"
+chirpstack-gateway-bridge-1  | time="2025-03-13T11:15:16.171795203Z" level=info msg="integration/mqtt: subscribing to topic" qos=0 topic="eu868/gateway/ac1f09fffe0fb6c2/command/#"
+chirpstack-gateway-bridge-1  | time="2025-03-13T11:15:16.174263514Z" level=warning msg="[store]    memorystore del: message 1 not found" module=mqtt
+chirpstack-gateway-bridge-1  | time="2025-03-13T11:15:16.179578739Z" level=info msg="integration/mqtt: publishing state" gateway_id=ac1f09fffe0fb6c2 qos=0 state=conn topic=eu868/gateway/ac1f09fffe0fb6c2/state/conn
+chirpstack-gateway-bridge-1  | time="2025-03-13T11:15:36.223150142Z" level=info msg="integration/mqtt: publishing event" event=up qos=0 topic=eu868/gateway/ac1f09fffe0fb6c2/event/up uplink_id=40001
+chirpstack-gateway-bridge-1  | time="2025-03-13T11:15:46.144454172Z" level=info msg="integration/mqtt: publishing event" event=stats qos=0 topic=eu868/gateway/ac1f09fffe0fb6c2/event/stats
+chirpstack-gateway-bridge-1  | time="2025-03-13T11:16:06.400063524Z" level=info msg="integration/mqtt: publishing event" event=up qos=0 topic=eu868/gateway/ac1f09fffe0fb6c2/event/up uplink_id=233
+chirpstack-gateway-bridge-1  | time="2025-03-13T11:16:16.177978582Z" level=info msg="integration/mqtt: publishing event" event=stats qos=0 topic=eu868/gateway/ac1f09fffe0fb6c2/event/stats
+
+Windows@G-NB110903 MINGW64 ~/chirpstack-docker (master)
+$ cd ~
+
+Windows@G-NB110903 MINGW64 ~
+$ scp /c/Users/Windows/Downloads/BME280_CHIRPSTACK.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_CHIRPSTACK.py                                                                         100% 3123   155.9KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$  scp /c/Users/Windows/Downloads/BME280_CHIRP2.py admin@192.168.0.114:/home/admin/
+admin@192.168.0.114's password:
+BME280_CHIRP2.py                                                                             100% 3113   230.6KB/s   00:00
+
+Windows@G-NB110903 MINGW64 ~
+$
