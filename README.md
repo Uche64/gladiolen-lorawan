@@ -2,14 +2,6 @@
 
 **BME280 Sensor Use Case, Network Feasibility Analysis, and Integration for the Gladiolen Project**  
 
-**Author:** Uche Nwogbo  
-**Institution:** Thomas More University  
-**Internship:** Elektronica Intern, Spring 2025    
-
----
-
-## **Project Overview**  
-
 This repository documents the **LoRaWAN-based integration of BME280 environmental sensors**, comparing **The Things Network (TTN)** and **ChirpStack** for real-time data transmission. The insights from this study contribute to the **Gladiolen Smart Waste Management Project**, which monitors **waste bin levels and locations** using **ultrasonic sensors and LoRaWAN communication**.  
 
 Key topics covered:  
