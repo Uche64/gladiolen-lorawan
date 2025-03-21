@@ -1,0 +1,623 @@
+[
+    {
+        "deduplicationId": "5dbda531-6405-40e9-afe6-85a0728f4349",
+        "time": "2025-03-21T08:32:11.054667461+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 61,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AO4BGieK",
+        "object": {
+            "pressure": 1012.2,
+            "temperature": 23.8,
+            "humidity": 28.2
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 60802,
+                "nsTime": "2025-03-21T08:32:10.842361367+00:00",
+                "rssi": -31,
+                "snr": 11.8,
+                "channel": 7,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "xHI7pQ==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868500000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "2594bc0d-9e84-4bbd-8d3a-43159f4753e3",
+        "time": "2025-03-21T08:31:40.851916955+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 60,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AO8BFyeJ",
+        "object": {
+            "temperature": 23.9,
+            "humidity": 27.9,
+            "pressure": 1012.1
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 45294,
+                "nsTime": "2025-03-21T08:31:40.641670898+00:00",
+                "rssi": -31,
+                "snr": 13.8,
+                "channel": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "wqVRXg==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "ca73ccea-69b1-453c-a109-bcd435b20284",
+        "time": "2025-03-21T08:31:10.659924118+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 59,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABGCeJ",
+        "object": {
+            "humidity": 28,
+            "pressure": 1012.1,
+            "temperature": 24
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 46133,
+                "nsTime": "2025-03-21T08:31:10.446765491+00:00",
+                "rssi": -31,
+                "snr": 13.5,
+                "channel": 3,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "wNhuGA==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867700000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "648027a5-ff58-4353-a989-d16064b58a4e",
+        "time": "2025-03-21T08:30:40.437038863+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 58,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABGCeK",
+        "object": {
+            "temperature": 24,
+            "pressure": 1012.2,
+            "humidity": 28
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 51533,
+                "nsTime": "2025-03-21T08:30:40.226002128+00:00",
+                "rssi": -35,
+                "snr": 14,
+                "channel": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "vwuGlQ==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "cb31588f-e0c9-4181-9a8c-70abb52b77d4",
+        "time": "2025-03-21T08:30:10.235655582+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 57,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABGCeK",
+        "object": {
+            "temperature": 24,
+            "humidity": 28,
+            "pressure": 1012.2
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 46392,
+                "nsTime": "2025-03-21T08:30:10.020976993+00:00",
+                "rssi": -33,
+                "snr": 11.5,
+                "channel": 7,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "vT6hvA==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868500000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "15b7b605-adb9-4196-96ae-d77520b08020",
+        "time": "2025-03-21T08:29:40.035936178+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 56,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABGieJ",
+        "object": {
+            "temperature": 24,
+            "pressure": 1012.1,
+            "humidity": 28.2
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 49709,
+                "nsTime": "2025-03-21T08:29:39.825721274+00:00",
+                "rssi": -31,
+                "snr": 10,
+                "channel": 7,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "u3G7Hw==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868500000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "785959e6-d497-4582-b4af-08119f2f078e",
+        "time": "2025-03-21T08:29:09.828905970+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 55,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABHCeK",
+        "object": {
+            "humidity": 28.4,
+            "temperature": 24,
+            "pressure": 1012.2
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 28107,
+                "nsTime": "2025-03-21T08:29:09.617245865+00:00",
+                "rssi": -32,
+                "snr": 13.8,
+                "channel": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "uaTN3g==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "8603ec2d-e665-442f-8b34-67dad406ba2d",
+        "time": "2025-03-21T08:28:39.615061110+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 54,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABGyeJ",
+        "object": {
+            "temperature": 24,
+            "pressure": 1012.1,
+            "humidity": 28.3
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 57670,
+                "nsTime": "2025-03-21T08:28:39.401984099+00:00",
+                "rssi": -32,
+                "snr": 13.2,
+                "channel": 6,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "t9fmbA==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "6a9590a3-3e14-4203-9012-6159387192ef",
+        "time": "2025-03-21T08:28:09.394228574+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 53,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABHSeK",
+        "object": {
+            "pressure": 1012.2,
+            "humidity": 28.5,
+            "temperature": 24
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 22109,
+                "nsTime": "2025-03-21T08:28:09.182780705+00:00",
+                "rssi": -32,
+                "snr": 13.2,
+                "channel": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "tgrTfA==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "4929365c-dde0-4f2f-8f28-8fed82dce475",
+        "time": "2025-03-21T08:27:39.188790544+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 52,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABGieK",
+        "object": {
+            "temperature": 24,
+            "humidity": 28.2,
+            "pressure": 1012.2
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 32786,
+                "nsTime": "2025-03-21T08:27:38.975519553+00:00",
+                "rssi": -30,
+                "snr": 14.5,
+                "channel": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "tD3nBQ==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "dacd12aa-a02a-4346-a815-0d75034c0f9a",
+        "time": "2025-03-21T08:27:08.981073655+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "f5695329-d3a0-468b-b2f3-64399dd3d3fa",
+            "applicationName": "Gladiolen Waste Bins",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "27fa133c32b32fd7",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0154780c",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 51,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "APABGyeK",
+        "object": {
+            "humidity": 28.3,
+            "pressure": 1012.2,
+            "temperature": 24
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 41434,
+                "nsTime": "2025-03-21T08:27:08.768743020+00:00",
+                "rssi": -30,
+                "snr": 13.8,
+                "channel": 5,
+                "rfChain": 1,
+                "location": {
+                    "latitude": 51.16143,
+                    "longitude": 4.96038,
+                    "altitude": 59
+                },
+                "context": "snEB0A==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    }
+]

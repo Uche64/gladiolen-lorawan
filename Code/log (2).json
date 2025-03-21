@@ -1,0 +1,526 @@
+[
+    {
+        "deduplicationId": "3897b658-58bb-4f6a-ac88-4cc305dd602e",
+        "time": "2025-03-13T15:23:08.512537907+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 432,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOYBGCcA",
+        "object": {
+            "temperature": 23,
+            "humidity": 28,
+            "pressure": 998.4
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 65301,
+                "nsTime": "2025-03-13T15:23:08.302115470+00:00",
+                "rssi": -28,
+                "snr": 13.8,
+                "channel": 5,
+                "rfChain": 1,
+                "location": {},
+                "context": "YeyfJQ==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "42442dcd-f450-478c-ace6-ca653efcd5f4",
+        "time": "2025-03-13T15:22:38.296582249+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 431,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOYBEycA",
+        "object": {
+            "pressure": 998.4,
+            "humidity": 27.5,
+            "temperature": 23
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 21839,
+                "nsTime": "2025-03-13T15:22:38.085200400+00:00",
+                "rssi": -41,
+                "snr": 13.8,
+                "channel": 1,
+                "location": {},
+                "context": "YB+wug==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "865c0eea-eb42-4f7a-8f18-489ce7eae0b6",
+        "time": "2025-03-13T15:22:08.095223971+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 430,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOcBEycA",
+        "object": {
+            "pressure": 998.4,
+            "humidity": 27.5,
+            "temperature": 23.1
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 37131,
+                "nsTime": "2025-03-13T15:22:07.884414676+00:00",
+                "rssi": -42,
+                "snr": 13.2,
+                "channel": 5,
+                "rfChain": 1,
+                "location": {},
+                "context": "XlLLoA==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "18b76f3e-2b24-4b29-969d-eb36d63098e2",
+        "time": "2025-03-13T15:21:37.878051208+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 429,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOcBFCb/",
+        "object": {
+            "pressure": 998.3,
+            "temperature": 23.1,
+            "humidity": 27.6
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 55870,
+                "nsTime": "2025-03-13T15:21:37.667793319+00:00",
+                "rssi": -38,
+                "snr": 13,
+                "channel": 1,
+                "location": {},
+                "context": "XIXpFw==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "40f8a8d9-27d7-47f2-9b24-9d8c9b17f53c",
+        "time": "2025-03-13T15:21:07.664076140+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 428,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOcBFSb/",
+        "object": {
+            "humidity": 27.7,
+            "temperature": 23.1,
+            "pressure": 998.3
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 49372,
+                "nsTime": "2025-03-13T15:21:07.452856924+00:00",
+                "rssi": -31,
+                "snr": 12.8,
+                "channel": 1,
+                "location": {},
+                "context": "Wrj+dg==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "9f3d36f8-d28b-4893-999f-589f54a1eca5",
+        "time": "2025-03-13T15:20:37.460284458+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 427,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOcBGCb/",
+        "object": {
+            "temperature": 23.1,
+            "humidity": 28,
+            "pressure": 998.3
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 39678,
+                "nsTime": "2025-03-13T15:20:37.250582610+00:00",
+                "rssi": -31,
+                "snr": 12.8,
+                "channel": 3,
+                "location": {},
+                "context": "WOwXOw==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867700000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "511ab2f8-019d-4758-ab2e-6896b1af1abb",
+        "time": "2025-03-13T15:20:07.266372108+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 426,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOcBFCcA",
+        "object": {
+            "pressure": 998.4,
+            "temperature": 23.1,
+            "humidity": 27.6
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 6334,
+                "nsTime": "2025-03-13T15:20:07.056051224+00:00",
+                "rssi": -32,
+                "snr": 13,
+                "channel": 4,
+                "location": {},
+                "context": "Vx8ylg==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867900000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "df23ba52-2e45-4440-893d-801ffa1c1628",
+        "time": "2025-03-13T15:19:37.057336+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 425,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOcBFSb/",
+        "object": {
+            "temperature": 23.1,
+            "humidity": 27.7,
+            "pressure": 998.3
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 32798,
+                "nsTime": "2025-03-13T15:19:36.845640574+00:00",
+                "rssi": -30,
+                "snr": 14,
+                "channel": 6,
+                "rfChain": 1,
+                "location": {},
+                "context": "VVJQfQ==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "c8b8471a-eda2-4a31-aacc-724a060f922e",
+        "time": "2025-03-13T15:19:06.850223850+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 424,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOcBEicA",
+        "object": {
+            "pressure": 998.4,
+            "humidity": 27.4,
+            "temperature": 23.1
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 28012,
+                "nsTime": "2025-03-13T15:19:06.639138662+00:00",
+                "rssi": -37,
+                "snr": 12.8,
+                "channel": 1,
+                "location": {},
+                "context": "U4VvbA==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 867300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    },
+    {
+        "deduplicationId": "063db4b2-25bc-4f3c-9e42-fbe1dd6d28b5",
+        "time": "2025-03-13T15:18:36.633840737+00:00",
+        "deviceInfo": {
+            "tenantId": "52f14cd4-c6f1-4fbd-8f87-4025e1d49242",
+            "tenantName": "ChirpStack",
+            "applicationId": "b2312d41-d3f3-4e7e-bc18-8e831fd0f87c",
+            "applicationName": "BME280",
+            "deviceProfileId": "a3835149-f016-43c3-98fb-2c1350e778ab",
+            "deviceProfileName": "BME280_Profile",
+            "deviceName": "BME280",
+            "devEui": "8df19366e886de9a",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "0169a1ef",
+        "adr": false,
+        "dr": 5,
+        "fCnt": 423,
+        "fPort": 1,
+        "confirmed": false,
+        "data": "AOcBFyb/",
+        "object": {
+            "humidity": 27.9,
+            "pressure": 998.3,
+            "temperature": 23.1
+        },
+        "rxInfo": [
+            {
+                "gatewayId": "ac1f09fffe0fb6c2",
+                "uplinkId": 32727,
+                "nsTime": "2025-03-13T15:18:36.423018966+00:00",
+                "rssi": -35,
+                "snr": 12.8,
+                "channel": 5,
+                "rfChain": 1,
+                "location": {},
+                "context": "UbiG/g==",
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 868100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        },
+        "regionConfigId": "eu868"
+    }
+]

@@ -1,0 +1,464 @@
+login as: admin
+admin@192.168.0.114's password:
+Linux raspberrypi 6.6.51+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-                                                                                                             10-08) aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Mar 12 15:31:10 2025 from 192.168.0.190
+admin@raspberrypi:~ $ i2cdetect -y 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:                         -- -- -- -- -- -- -- --
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+70: -- -- -- -- -- -- 76 --
+admin@raspberrypi:~ $ source env/bin/activate
+(env) admin@raspberrypi:~ $ python3 BME280_TTN.py
+Starting BME280 LoRaWAN Transmission... Press CTRL+C to stop.
+
+Temperature: 24.06 °C
+Humidity: 30.22 %
+Pressure: 998.39 hPa
+Encoded Data: ['0x9', '0x65', '0xb', '0xcd', '0x85', '0xff']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.04 °C
+Humidity: 30.67 %
+Pressure: 998.39 hPa
+Encoded Data: ['0x9', '0x63', '0xb', '0xfb', '0x85', '0xfe']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.04 °C
+Humidity: 30.55 %
+Pressure: 998.40 hPa
+Encoded Data: ['0x9', '0x63', '0xb', '0xef', '0x86', '0x0']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.02 °C
+Humidity: 30.81 %
+Pressure: 998.39 hPa
+Encoded Data: ['0x9', '0x62', '0xc', '0x8', '0x85', '0xfe']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.03 °C
+Humidity: 30.68 %
+Pressure: 998.36 hPa
+Encoded Data: ['0x9', '0x63', '0xb', '0xfc', '0x85', '0xfc']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.02 °C
+Humidity: 30.24 %
+Pressure: 998.40 hPa
+Encoded Data: ['0x9', '0x62', '0xb', '0xd0', '0x86', '0x0']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.02 °C
+Humidity: 30.37 %
+Pressure: 998.37 hPa
+Encoded Data: ['0x9', '0x62', '0xb', '0xdd', '0x85', '0xfc']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.04 °C
+Humidity: 30.62 %
+Pressure: 998.35 hPa
+Encoded Data: ['0x9', '0x63', '0xb', '0xf6', '0x85', '0xfb']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.03 °C
+Humidity: 30.37 %
+Pressure: 998.35 hPa
+Encoded Data: ['0x9', '0x63', '0xb', '0xdc', '0x85', '0xfb']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.02 °C
+Humidity: 30.08 %
+Pressure: 998.34 hPa
+Encoded Data: ['0x9', '0x62', '0xb', '0xbf', '0x85', '0xf9']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.02 °C
+Humidity: 30.84 %
+Pressure: 998.34 hPa
+Encoded Data: ['0x9', '0x62', '0xc', '0xb', '0x85', '0xf9']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.02 °C
+Humidity: 30.64 %
+Pressure: 998.35 hPa
+Encoded Data: ['0x9', '0x62', '0xb', '0xf8', '0x85', '0xfb']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.02 °C
+Humidity: 30.56 %
+Pressure: 998.31 hPa
+Encoded Data: ['0x9', '0x62', '0xb', '0xf0', '0x85', '0xf7']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 24.00 °C
+Humidity: 30.19 %
+Pressure: 998.36 hPa
+Encoded Data: ['0x9', '0x60', '0xb', '0xca', '0x85', '0xfb']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.99 °C
+Humidity: 29.57 %
+Pressure: 998.35 hPa
+Encoded Data: ['0x9', '0x5e', '0xb', '0x8d', '0x85', '0xfb']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.91 °C
+Humidity: 29.13 %
+Pressure: 998.33 hPa
+Encoded Data: ['0x9', '0x57', '0xb', '0x61', '0x85', '0xf9']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.87 °C
+Humidity: 29.27 %
+Pressure: 998.33 hPa
+Encoded Data: ['0x9', '0x53', '0xb', '0x6e', '0x85', '0xf8']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.83 °C
+Humidity: 28.79 %
+Pressure: 998.32 hPa
+Encoded Data: ['0x9', '0x4f', '0xb', '0x3e', '0x85', '0xf7']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.84 °C
+Humidity: 28.96 %
+Pressure: 998.38 hPa
+Encoded Data: ['0x9', '0x4f', '0xb', '0x50', '0x85', '0xfe']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.81 °C
+Humidity: 28.54 %
+Pressure: 998.33 hPa
+Encoded Data: ['0x9', '0x4d', '0xb', '0x26', '0x85', '0xf8']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.76 °C
+Humidity: 28.80 %
+Pressure: 998.32 hPa
+Encoded Data: ['0x9', '0x47', '0xb', '0x3f', '0x85', '0xf8']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.73 °C
+Humidity: 29.03 %
+Pressure: 998.31 hPa
+Encoded Data: ['0x9', '0x45', '0xb', '0x56', '0x85', '0xf6']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.74 °C
+Humidity: 28.98 %
+Pressure: 998.28 hPa
+Encoded Data: ['0x9', '0x45', '0xb', '0x52', '0x85', '0xf3']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.70 °C
+Humidity: 28.44 %
+Pressure: 998.31 hPa
+Encoded Data: ['0x9', '0x42', '0xb', '0x1c', '0x85', '0xf7']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.67 °C
+Humidity: 28.19 %
+Pressure: 998.31 hPa
+Encoded Data: ['0x9', '0x3f', '0xb', '0x3', '0x85', '0xf6']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.64 °C
+Humidity: 28.35 %
+Pressure: 998.30 hPa
+Encoded Data: ['0x9', '0x3c', '0xb', '0x12', '0x85', '0xf6']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.61 °C
+Humidity: 28.26 %
+Pressure: 998.32 hPa
+Encoded Data: ['0x9', '0x38', '0xb', '0xa', '0x85', '0xf7']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.58 °C
+Humidity: 28.69 %
+Pressure: 998.32 hPa
+Encoded Data: ['0x9', '0x36', '0xb', '0x35', '0x85', '0xf8']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.58 °C
+Humidity: 28.20 %
+Pressure: 998.32 hPa
+Encoded Data: ['0x9', '0x35', '0xb', '0x3', '0x85', '0xf8']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.57 °C
+Humidity: 28.55 %
+Pressure: 998.34 hPa
+Encoded Data: ['0x9', '0x34', '0xb', '0x26', '0x85', '0xf9']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.56 °C
+Humidity: 28.36 %
+Pressure: 998.36 hPa
+Encoded Data: ['0x9', '0x34', '0xb', '0x14', '0x85', '0xfc']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.56 °C
+Humidity: 28.56 %
+Pressure: 998.34 hPa
+Encoded Data: ['0x9', '0x34', '0xb', '0x27', '0x85', '0xf9']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.55 °C
+Humidity: 28.81 %
+Pressure: 998.32 hPa
+Encoded Data: ['0x9', '0x33', '0xb', '0x41', '0x85', '0xf8']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.48 °C
+Humidity: 28.54 %
+Pressure: 998.36 hPa
+Encoded Data: ['0x9', '0x2c', '0xb', '0x25', '0x85', '0xfb']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.48 °C
+Humidity: 28.19 %
+Pressure: 998.39 hPa
+Encoded Data: ['0x9', '0x2c', '0xb', '0x3', '0x85', '0xff']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.48 °C
+Humidity: 28.18 %
+Pressure: 998.36 hPa
+Encoded Data: ['0x9', '0x2c', '0xb', '0x1', '0x85', '0xfb']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.48 °C
+Humidity: 28.28 %
+Pressure: 998.37 hPa
+Encoded Data: ['0x9', '0x2c', '0xb', '0xc', '0x85', '0xfd']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.50 °C
+Humidity: 28.66 %
+Pressure: 998.36 hPa
+Encoded Data: ['0x9', '0x2d', '0xb', '0x32', '0x85', '0xfb']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.48 °C
+Humidity: 28.36 %
+Pressure: 998.38 hPa
+Encoded Data: ['0x9', '0x2c', '0xb', '0x14', '0x85', '0xfe']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.45 °C
+Humidity: 28.19 %
+Pressure: 998.39 hPa
+Encoded Data: ['0x9', '0x29', '0xb', '0x2', '0x85', '0xfe']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.39 °C
+Humidity: 27.98 %
+Pressure: 998.38 hPa
+Encoded Data: ['0x9', '0x22', '0xa', '0xed', '0x85', '0xfd']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.36 °C
+Humidity: 28.03 %
+Pressure: 998.37 hPa
+Encoded Data: ['0x9', '0x1f', '0xa', '0xf2', '0x85', '0xfd']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.35 °C
+Humidity: 28.29 %
+Pressure: 998.39 hPa
+Encoded Data: ['0x9', '0x1f', '0xb', '0xd', '0x85', '0xfe']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.34 °C
+Humidity: 28.14 %
+Pressure: 998.35 hPa
+Encoded Data: ['0x9', '0x1d', '0xa', '0xfe', '0x85', '0xfa']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.31 °C
+Humidity: 28.50 %
+Pressure: 998.35 hPa
+Encoded Data: ['0x9', '0x1a', '0xb', '0x21', '0x85', '0xfa']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.31 °C
+Humidity: 28.10 %
+Pressure: 998.37 hPa
+Encoded Data: ['0x9', '0x1b', '0xa', '0xf9', '0x85', '0xfc']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.30 °C
+Humidity: 28.29 %
+Pressure: 998.36 hPa
+Encoded Data: ['0x9', '0x1a', '0xb', '0xc', '0x85', '0xfc']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.29 °C
+Humidity: 28.35 %
+Pressure: 998.40 hPa
+Encoded Data: ['0x9', '0x19', '0xb', '0x13', '0x85', '0xff']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.30 °C
+Humidity: 28.37 %
+Pressure: 998.37 hPa
+Encoded Data: ['0x9', '0x1a', '0xb', '0x14', '0x85', '0xfc']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.30 °C
+Humidity: 28.77 %
+Pressure: 998.45 hPa
+Encoded Data: ['0x9', '0x1a', '0xb', '0x3d', '0x86', '0x4']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.29 °C
+Humidity: 28.35 %
+Pressure: 998.43 hPa
+Encoded Data: ['0x9', '0x18', '0xb', '0x13', '0x86', '0x3']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.32 °C
+Humidity: 28.24 %
+Pressure: 998.45 hPa
+Encoded Data: ['0x9', '0x1b', '0xb', '0x8', '0x86', '0x4']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.32 °C
+Humidity: 28.69 %
+Pressure: 998.44 hPa
+Encoded Data: ['0x9', '0x1c', '0xb', '0x34', '0x86', '0x3']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.32 °C
+Humidity: 28.48 %
+Pressure: 998.51 hPa
+Encoded Data: ['0x9', '0x1b', '0xb', '0x1f', '0x86', '0xa']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
+
+Temperature: 23.35 °C
+Humidity: 28.42 %
+Pressure: 998.50 hPa
+Encoded Data: ['0x9', '0x1e', '0xb', '0x1a', '0x86', '0x9']
+Sending packet to TTN...
+Packet sent successfully!
+Waiting 60 seconds before next transmission...
