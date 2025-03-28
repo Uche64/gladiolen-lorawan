@@ -9,7 +9,7 @@ Key topics covered:
 - Feasibility analysis of both LoRaWAN networks  
 - Recommendations for implementing LoRa-based waste monitoring  
 
-**Full documentation available in this repository.**  
+**Full documentation is available **[here](Documents/LoRaWAN%20Report.pdf)** in this repository.**  
 
 ---
 
